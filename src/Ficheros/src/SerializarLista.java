@@ -13,7 +13,7 @@ public class SerializarLista {
 
         try {
             //Serializar (guarda el archivo en un fichero binario)
-            String rutaArchivo = "FIcheros/src/personas.dat";
+            String rutaArchivo = "Ficheros/src/personas.dat";
             ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(rutaArchivo));
             oos.writeObject(listaPersonas);
             oos.close();
